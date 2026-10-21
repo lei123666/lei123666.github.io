@@ -1,25 +1,65 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tob 工作室，网站筹备中。">
-  <meta name="theme-color" content="#faf6ed">
-  <title>Tob 工作室</title>
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 32px; background: #faf6ed; color: #34261f; font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; }
-    main { text-align: center; }
-    h1 { margin: 0 0 16px; font-size: clamp(32px, 7vw, 48px); font-weight: 700; letter-spacing: .02em; }
-    p { margin: 0; color: #75665a; font-size: 18px; line-height: 1.8; }
-    .accent { display: block; width: 32px; height: 4px; margin: 28px auto 0; border-radius: 4px; background: #e77825; }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Tob 工作室</h1>
-    <p>网站筹备中</p>
-    <span class="accent" aria-hidden="true"></span>
-  </main>
-</body>
-</html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer"><meta name="theme-color" content="#f4f6f1">
+<meta name="description" content="喵喵踩点隐私政策：游戏数据、权限、第三方服务、您的选择与联系方式。开发运营者雷少俊，Tob工作室。">
+<title>喵喵踩点隐私政策 · Tob工作室</title><style>
+:root{color-scheme:light;--ink:#233a36;--muted:#5c6e68;--accent:#146451;--line:#dbe4dd;--paper:#fffefb}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
+body{margin:0;background:#f4f6f1;color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;line-height:1.85;font-size:16px}
+a{color:var(--accent);text-underline-offset:3px;overflow-wrap:anywhere}a:hover{color:#093a2f}
+a:focus-visible{outline:3px solid #d69c3a;outline-offset:4px}
+.site-header{max-width:1160px;margin:auto;padding:25px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.brand{font-weight:750;text-decoration:none;letter-spacing:.03em}.site-header nav{display:flex;gap:22px;font-size:14px}
+.layout{max-width:1160px;margin:0 auto 48px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px;padding:0 32px}
+aside{position:sticky;top:24px;align-self:start;font-size:14px;padding:16px 0}
+aside p{margin:0 0 12px;font-weight:700}aside ol{padding-left:0;margin:0;list-style:none}
+aside li{margin:8px 0}aside a{text-decoration:none;color:var(--muted)}
+article{min-width:0;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:40px 44px}
+.version-note{font-size:14px;color:var(--muted);padding-bottom:22px;border-bottom:1px solid var(--line);margin:0 0 25px}
+h1{font-size:clamp(25px,3.5vw,34px);line-height:1.45;letter-spacing:-.02em;margin:0 0 24px}
+h2{font-size:22px;line-height:1.5;margin:38px 0 15px;color:#183e32}h3{font-size:18px;margin:25px 0 10px}
+p{margin:14px 0;overflow-wrap:anywhere}ul{padding-left:23px}li{margin:9px 0;overflow-wrap:anywhere}
+code{font-size:.92em;overflow-wrap:anywhere}table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.7}
+th,td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top;min-width:112px}
+th{background:#edf3ed}.table-scroll{overflow-x:auto;margin:20px 0}
+footer{max-width:1160px;margin:0 auto;padding:0 32px 30px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.layout{display:block;padding:0 16px}.site-header{padding:20px 20px}.site-header nav{gap:16px}aside{position:static;padding:8px 3px 23px}aside ol{display:flex;flex-wrap:wrap;gap:8px 18px}aside li{margin:0}article{padding:25px 22px;border-radius:12px}h2{font-size:21px}footer{padding:0 20px 26px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{body{background:white;font-size:11pt}.site-header,aside,.version-note,footer{display:none}.layout{display:block;padding:0;margin:0;max-width:none}article{border:0;padding:0}h2,h3{break-after:avoid}a{color:inherit;text-decoration:none}table{font-size:10pt}}
+</style></head>
+<body id="top"><header class="site-header"><a class="brand" href="index.html">Tob工作室</a>
+<nav aria-label="政策版本"><a href="privacy.html">广告版政策</a><a href="privacy-v0.10.10.html">0.10.10 版政策</a></nav></header>
+<div class="layout"><aside aria-label="本页目录"><p>阅读目录</p><ol><li><a href="#section-1">一、游戏功能与本机数据</a></li><li><a href="#section-2">二、系统权限</a></li><li><a href="#section-3">三、TapTap、TapPlay 与网页服务</a></li><li><a href="#section-4">四、保存期限、信息提供与安全</a></li><li><a href="#section-5">五、您的权利与联系方式</a></li><li><a href="#section-6">六、未成年人</a></li><li><a href="#section-7">七、政策更新</a></li></ol></aside>
+<article><p class="version-note">本页适用于 0.10.10-test 无广告版。使用带激励广告的 0.10.11 或 0.10.12 版时，请阅读<a href="privacy.html">广告版隐私政策</a>。</p><h1>《喵喵踩点》隐私政策（0.10.10 版本）</h1>
+<p>更新日期：2026 年 10 月 21 日<br>生效日期：2026 年 10 月 21 日<br>适用版本：Android 版 0.10.10-test<br>开发与运营者：雷少俊（个人开发者）<br>开发者展示名称：Tob工作室<br>隐私联系邮箱：869167056@qq.com</p>
+<p>本政策供使用《喵喵踩点》0.10.10-test 版本的玩家查阅。该版本没有接入广告服务，后续带广告版本适用其对应政策。雷少俊是本游戏的开发与运营者，下文使用“我们”表述。</p>
+<h2 id="section-1">一、游戏功能与本机数据</h2>
+<p>本版本提供音乐节奏关卡、成绩结算、关卡解锁及声音和操作设置。游戏没有独立注册账号、充值、聊天或用户内容上传功能，不要求您向游戏填写姓名、手机号、身份证号、地址或支付信息。</p>
+<p>游玩时，游戏在本机处理点击、按键和节奏时间判定，用于计算结果；保存关卡完成情况、解锁进度、最高分、最佳评价，以及音量、静音、操作提示和节奏校准等设置，供下次继续游玩。<strong>这些数据保存在设备的应用内部空间，不上传至开发者服务器。</strong> 游戏没有操作轨迹上传功能，也未接入广告、运营统计或崩溃上报服务。</p>
+<p>您主动通过邮件联系开发者时，我们会收到您选择提供的邮件地址、问题描述、截图、设备型号等信息，用于回复、解决问题或处理隐私请求。请只提供必要信息，并遮挡截图中的无关个人信息。不要发送密码、验证码等内容。</p>
+<h2 id="section-2">二、系统权限</h2>
+<p>本版本使用 Android 震动权限（VIBRATE），用于设备支持时的操作反馈，不用于读取个人信息。游戏没有申请访问网络或读取网络状态的权限，也不申请定位、电话、相机、麦克风、联系人、短信或外部存储权限。保存存档使用应用内部空间，不需要读取相册或公共文件。</p>
+<p>操作系统可能自行记录安装、崩溃或性能等诊断信息，相关处理以系统设置和规则为准。游戏不主动将这些系统记录上传给开发者。</p>
+<h2 id="section-3">三、TapTap、TapPlay 与网页服务</h2>
+<p>通过 TapTap 下载、更新、预约或评论，以及通过 TapPlay 运行游戏时，平台可能为相应功能处理平台账号、实名验证、运行或存档等信息。不能仅因为本版本游戏未联网，就认为您使用的平台也不处理信息。</p>
+<p>TapTap 平台由<strong>易玩（上海）网络科技有限公司</strong>提供，TapPlay 相关处理包含在<a href="https://www.taptap.cn/doc/privacy-policy/" rel="noreferrer">《TapTap 隐私政策》</a>中。请结合实际使用的功能阅读。平台账号、实名资料、平台权限和平台保存数据的管理，可通过平台设置或客服处理。本版本没有另行集成平台的登录或实名认证组件，也不自行接收您的平台密码或身份证资料。</p>
+<p>游戏进度和设置通过本机文件保存，不使用浏览器 Cookie 保存。开发者提供的本政策网页不设置广告跟踪 Cookie，也不嵌入访问分析脚本。网页由 GitHub Pages 托管，托管方可能处理访问 IP 地址、请求和安全日志，相关说明见<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noreferrer">GitHub 隐私声明</a>。您主动打开其他外部网页时，请阅读该服务自己的隐私说明。</p>
+<h2 id="section-4">四、保存期限、信息提供与安全</h2>
+<p>本机进度和设置保存至您清除应用数据或卸载游戏。清除或卸载通常会删除存档，开发者没有可用于恢复的服务器副本。平台或系统是否另有备份、恢复能力，以实际服务为准。</p>
+<p>您主动提交的反馈和联系方式保存在用于接收来信的邮箱及必要的问题处理记录中，仅在回复、处理问题、回应请求和履行法定义务所需期间保留。目的完成且没有继续保留的合法依据时，将删除或作不再识别个人的处理。邮件服务方的数据管理按照其自身规则进行。</p>
+<p>游戏不主动向境外传输本机存档。您使用的平台、邮件和网页托管等外部服务，保存位置和跨境处理以相应服务规则为准。</p>
+<p>我们不出售您提交的个人信息，不将反馈用于无关的广告营销，也不公开您的非公开反馈。排查问题确需向技术服务方提供材料时，优先使用不含可识别个人信息的描述；确需提供个人信息的，会依法说明接收方、目的和范围并取得必要授权，法律另有规定的除外。</p>
+<p>我们通过减少不必要信息、限制反馈材料的使用范围等措施保护信息。如发生个人信息安全事件，将依法采取补救措施并履行告知与报告义务。涉及运营主体变更和信息转移时，将依法告知并要求接收方继续履行保护义务。</p>
+<h2 id="section-5">五、您的权利与联系方式</h2>
+<p>您可在游戏中查看成绩、完成情况和已解锁关卡，修改声音及操作设置。需要删除本机数据时，可在 Android 应用管理中选择“清除数据”或卸载游戏。请先确认不再需要存档，删除后可能无法恢复。</p>
+<p>本游戏没有独立账号，因此没有单独的游戏账号注销入口。TapTap 等平台账号应通过对应平台注销。</p>
+<p>如需查阅、复制、更正、删除您向开发者提供的信息，撤回相关授权，或提出投诉、疑问，请联系 <strong>869167056@qq.com</strong>，由个人开发者<strong>雷少俊（Tob工作室）</strong>处理。请说明游戏名称、版本、请求类型及必要信息；我们只核验处理请求所需的信息，不要求密码或验证码。</p>
+<p>我们会及时并在法律规定的期限内回复和处理。不能立即满足的，会说明原因和可行的后续方式。撤回授权不影响撤回前依法完成的信息处理。对处理结果存在异议的，您也可以依法向有关主管部门投诉或寻求其他救济。</p>
+<h2 id="section-6">六、未成年人</h2>
+<p>未成年人应在监护人指导下阅读本政策并合理安排游戏时间。不满十四周岁的用户如需向开发者提供可识别个人的信息，应先由监护人了解并同意。监护人发现相关信息被不当提交，可通过上述邮箱提出查阅、更正或删除请求。</p>
+<p>通过 TapPlay 等平台游玩时，实名认证和未成年人游戏限制以平台实际服务为准；本版本没有独立的年龄识别或监护人身份核验功能，也不自行收集身份证资料完成平台实名。</p>
+<h2 id="section-7">七、政策更新</h2>
+<p>后续版本新增广告或其他联网功能时，我们会更新相应政策，说明适用版本及信息处理变化。需要取得同意的，会在启用前另行告知和征求同意，不会因为您使用过本版本而视为已经同意后续版本的处理。本版本政策保留供您查阅。</p></article></div>
+<footer><span>雷少俊 · Tob工作室　隐私联系：<a href="mailto:869167056@qq.com">869167056@qq.com</a></span><a href="#top">返回顶部 ↑</a></footer>
+</body></html>
